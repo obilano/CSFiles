@@ -1,0 +1,27 @@
+/Name: Oberon Ilano		
+/Assignment: Program # 3, Marie 3, #34 from page 294
+/Due Date: April 2 2019	
+/Purpose: The purpose of this program is to solve the homework
+/problem number 34. This program creates a For loop that loops 
+/10 times before it terminates the program. The program instruction
+/is set to add the value of X to the Sum and store it to Sum every  
+/time it loops. When the value of X becomes equal to the value of For,
+/then the program will be terminated. The value of Sum when the 
+/program is terminated should be decimal 55/Hex 0037.
+	
+	ORG 100
+Loop,	Load Sum	/Load Sum to add the X value
+	Add X		/Add the value of X to Sum
+	Store Sum	/save the result of Sum+X to Sum
+	Load X		/Load X to increment by 1
+	Add One		/Add the constant one to X 
+	Store X		/Save the result of X+1 to X
+	Subt For	/Subtract the value of For and compare to X value
+	Skipcond 400	/If the For value is equal to X value then the program ends
+	Jump Loop	/Go to loop until X equal to 10.
+	Halt
+Sum,	Hex 0000	/initialized Sum value to 0
+X,	Hex 0001	/initialized X value to 1, the beginning of the loop
+One,	Hex 0001	/Use a constant number to increment the value of X
+For,	Hex 000B	/Use constant number to compare to X, the loop will
+			/go through 10 times before the program terminates

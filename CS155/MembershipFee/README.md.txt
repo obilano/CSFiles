@@ -1,0 +1,3 @@
+A) A country club charges $2500 for yearly membership. It will increase its annual fee by 4% each year for the next 6 years. Write a program using a for loop to show a table with the projected rates (round to the nearest penny) for the next 6 years.
+
+B) Modify your program in part (A) so that the user will input 1) the initial membership rate, 2) the percentage increases as a percentage (i.e. 4.0), and 3) the number of years to be displayed. Add data validation to each input so no negative numbers are accepted.

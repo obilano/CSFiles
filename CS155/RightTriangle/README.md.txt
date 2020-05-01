@@ -1,0 +1,1 @@
+PROBLEM: Ask the user to enter one side and a hypotenuse of a right triangle. Your program should compute the other side of the triangle and display it using two decimal places.

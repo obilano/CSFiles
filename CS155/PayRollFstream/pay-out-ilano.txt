@@ -1,0 +1,36 @@
+Employee: Michael Jordan
+Hours: 23.0
+Rate: $45.00
+Regular Pay: $360.00
+Double Pay: $720.00
+Triple Pay: $945.00
+Total Pay: $2025.00
+==============================
+Employee: Derrick Rose
+Hours: 10.0
+Rate: $25.00
+Regular Pay: $200.00
+Double Pay: $100.00
+Total Pay: $300.00
+==============================
+Employee: Tracy Mcgrady
+Hours: 10.0
+Rate: $11.00
+Regular Pay: $88.00
+Double Pay: $44.00
+Total Pay: $132.00
+==============================
+Employee: Kevin Durant
+Hours: 30.0
+Rate: $45.00
+Regular Pay: $360.00
+Double Pay: $720.00
+Triple Pay: $1890.00
+Total Pay: $2970.00
+==============================
+Employee: Donovan Mitchell
+Hours: 7.0
+Rate: $45.00
+Regular Pay: $315.00
+Total Pay: $315.00
+==============================

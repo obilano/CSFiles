@@ -1,0 +1,10 @@
+Michael Jordan
+23.0 45.00
+Derrick Rose
+10.0 25.00
+Tracy Mcgrady
+10.0 11.00
+Kevin Durant
+30.0 45.00
+Donovan Mitchell
+7.0 45.00

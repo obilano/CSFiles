@@ -1,0 +1,1 @@
+Check to see if either of the triangle sides are less than or equal to zero, or the hypotenuse is less than or equal to the given leg. If so, print out an "Invalid data" message and end the program.

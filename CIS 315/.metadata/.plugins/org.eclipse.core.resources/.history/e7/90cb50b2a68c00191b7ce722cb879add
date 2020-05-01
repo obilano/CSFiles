@@ -1,0 +1,17 @@
+/**
+ * Author: 		Oberon Ilano
+ * Subject:		CIS 315 Advanced Object-Oriented Programming
+ * Assignment:	Eliminate Duplicates
+ * Due Date:	June 17, 2019
+ */
+
+public class EliminateDuplicates {
+
+	public static void main(String[] args) {
+		int [] array ;
+		for(int i = 0; i < 10; i++)
+			System.out.print(i + 1 + " ");
+
+	}
+
+}

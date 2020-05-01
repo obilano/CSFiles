@@ -1,0 +1,41 @@
+#lang racket
+;find the highest value in the list
+(define (highScore lst)
+(cond
+  ((null? lst) 0)
+  ((null? (rest lst)) (first lst))
+  (else
+   (cond
+      ((> (first lst) (highScore (rest lst))) (first lst))
+      (else (highScore (rest lst)))))))
+
+;find the lowest value in the list
+(define (lowScore lst)
+  (cond
+    ((null? lst) 0)
+    ((null? (rest lst)) (first lst))
+    (else
+     (cond
+       ((< (first lst) (lowScore (rest lst))) (first lst))
+       (else (lowScore (rest lst)))))))
+
+;drop the lowest and highest from the list
+(define (dropLowHigh lst)
+  (define low (lowScore lst))
+  (define high (highScore lst))
+  (cond
+   (not (null? lst) (remove* (list low high) lst))
+  (else (dropLowHigh (cdr lst)))))
+
+(define (avg lst)
+  (define afterDrop (dropLowHigh lst))
+  ( / (apply + afterDrop) (length afterDrop)))
+ 
+ 
+;(highScore '(7 6 3 10 9))
+
+;(lowScore '(7 6 3 10 9))
+
+;(dropLowHigh '(7 6 3 10 9))
+
+(avg '(7 6 3 10 9))

@@ -1,0 +1,32 @@
+/Name: Oberon Ilano		
+/Assignment: Program # 1, Marie 1, #29 from page 293
+/Due Date: March 26, 2019	
+/Purpose: The purpose of this program is to solve the homework 
+/problem number 29. This program creates If-statements to compare 
+/the X value. If X has a positive value that is greater than 1, 
+/then the program instruction is set to double the value of X and 
+/store it to Y. If the X value is negative or equal to zero, then 
+/the program instruction is to set to increment the value of Y by 
+/1 and store it to Y. The X value is initialized to 1 and the Y 
+/value is initialized to 5 since the homework problem does not 
+/specify both of the variable values. The value in AC after the 
+/program terminates should be decimal 6/Hex 0006 because the X 
+/value is not greater than 1.
+
+	ORG	100
+If,	Load X		/Load the X value to compare if its greater than 1.
+	Subt one	/Subtract the value of one and store the result in AC
+	Skipcond 800	/skip the next instruction if the AC is positive
+	Jump Endif	/Go to Endif when the X value is less than 1
+Then,	Load X		/Reload the X to add another X
+	Add X		/Double the X
+	Store Y		/Save the result value of X+X to Y
+	Clear		/Move 0 into AC
+	Store X		/Set X to 0
+Endif,	Load Y		/Load Y value into AC if the X value is less than or equal to 1
+	Add one		/Value of one is added to Y
+	Store Y		/Save the result value of Y+1 to Y
+	Halt		/program will terminate if the condition has been satisfied
+one,	Hex 0001	/use a constant number for comparison and increment a value
+X,	Hex 0001	/X variable initialize to 1, the homework does not specify the initial value
+Y,	Hex 0005	/Y variable initialized to 5, the homework does not specify the initial value

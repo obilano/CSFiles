@@ -1,0 +1,14 @@
+package edu.una.csis.quantum;
+
+import com.gluonhq.strange.algorithm.Classic;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		int bit = Classic.randomBit();
+		
+		System.out.println(bit);
+	}
+	
+}

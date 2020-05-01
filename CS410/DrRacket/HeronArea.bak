@@ -1,0 +1,6 @@
+#lang racket
+(define (heron a b c)
+  (define s (/ (+ a b c) 2))
+  (sqrt(* s (- s a) (-s b) (-s c))))
+
+(heron 7 4 9)

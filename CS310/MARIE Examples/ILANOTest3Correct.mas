@@ -1,0 +1,30 @@
+/Name: Oberon Ilano		
+/Test 3
+/Due Date: April 23 2019	
+/Purpose: This program is to solve the problem in Test 3. 
+/This program will take a list values as input. The input
+/will loop ten times and while the values are being inputted,
+/the values of the ten list will be added together. The result
+/will be store to a variable named SUM. When the COUNT's value
+/becomes ten and equals to the constant variable TEN then
+/the program will terminate.
+	ORG	100	
+LOOP,   LOAD    COUNT	/load count to keep the numbers of loop
+	ADD	ONE	/increment the number of loop's count
+	STORE	COUNT 	/store the number of loop's count
+	INPUT		/ask for the input list value to be added
+	STORE	LIST	/store the input value to be added
+	LOAD    SUM	/load SUM so the list value can be added
+	ADD     LIST	/add the list values to SUM
+	STORE	SUM	
+	LOAD 	COUNT   /load count to be compared with TEN
+	SUBT	TEN	/subtract TEN to determind if loop still needed
+	SKIPCOND 000	/end the program if the skipcond is = 0
+	JUMP	END
+	JUMP 	LOOP	/go to loop if skipcond is negative
+END,    HALT	
+SUM,	DEC	0
+COUNT,	DEC	0
+TEN,	DEC	10
+ONE,	DEC	1
+LIST, 	DEC	0

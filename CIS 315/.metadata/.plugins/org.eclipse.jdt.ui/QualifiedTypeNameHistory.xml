@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+<fullyQualifiedTypeName name="javafx.scene.transform.Rotate"/>
+<fullyQualifiedTypeName name="javafx.animation.KeyFrame"/>
+<fullyQualifiedTypeName name="javafx.util.Duration"/>
+<fullyQualifiedTypeName name="javafx.application.Platform"/>
+<fullyQualifiedTypeName name="java.time.Clock"/>
+<fullyQualifiedTypeName name="javafx.animation.Timeline"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.text.FontPosture"/>
+<fullyQualifiedTypeName name="javafx.scene.text.FontWeight"/>
+<fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+<fullyQualifiedTypeName name="javafx.scene.ImageCursor"/>
+<fullyQualifiedTypeName name="javafx.scene.image.Image"/>
+<fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
+<fullyQualifiedTypeName name="javafx.application.Application"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+<fullyQualifiedTypeName name="javafx.animation.PathTransition"/>
+</qualifiedTypeNameHistroy>

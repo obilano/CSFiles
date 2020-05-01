@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\SD18\NWSCC\CIS255\CH6\CarlysEventWithLoop"/>
+		<item value="E:\SD18\NWSCC\CIS255\CH10\InheritDemo"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="629"/>
+		<item key="DIALOG_Y_ORIGIN" value="214"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="452"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="364"/>
+		<item key="DIALOG_Y_ORIGIN" value="86"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="645"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.fx.ide.jdt.ui.javafx"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.fx.ide"/>
+			<item value="org.eclipse.fx.ide/org.eclipse.fx.ide.pde.ui.osgi"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,1 @@
+To earn full credit, extend the Triple class to create a Quad class with 4 dimensions.  Create a driver that fully tests the Quad class with a clean menu.

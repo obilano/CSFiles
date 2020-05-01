@@ -1,0 +1,11 @@
+/**
+ * Author: 		Oberon Ilano
+ * Subject:		CIS 315 Advanced Object-Oriented Programming
+ * Assignment:	The Octagon Class
+ * Due Date:	July 5, 2019
+ */
+
+@SuppressWarnings("hiding")
+public interface Comparable <Octagon>{
+	public int compareTo(Octagon o);
+}

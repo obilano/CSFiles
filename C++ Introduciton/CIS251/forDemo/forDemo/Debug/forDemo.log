@@ -1,0 +1,4 @@
+﻿  forDemo.cpp
+f:\cis251\fordemo\fordemo\fordemo.cpp(14): warning C4018: '<=': signed/unsigned mismatch
+  forDemo.vcxproj -> F:\CIS251\forDemo\Debug\forDemo.exe
+  forDemo.vcxproj -> F:\CIS251\forDemo\Debug\forDemo.pdb (Full PDB)

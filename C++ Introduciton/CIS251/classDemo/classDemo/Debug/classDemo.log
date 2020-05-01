@@ -1,0 +1,4 @@
+﻿  classDemo.cpp
+d:\cis251\classdemo\classdemo\classdemo.cpp(23): warning C4101: 'count': unreferenced local variable
+  classDemo.vcxproj -> D:\CIS251\classDemo\Debug\classDemo.exe
+  classDemo.vcxproj -> D:\CIS251\classDemo\Debug\classDemo.pdb (Full PDB)

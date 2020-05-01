@@ -1,0 +1,42 @@
+/Name: Oberon Ilano		
+/Assignment: Program # 2, Marie 2, #29 from page 293
+/Due Date: March 26 2019	
+/Purpose: The purpose of this program is to solve the homework 
+/problem number 30. This program creates if-else statements to 
+/compare the X value to Y and Z values. The X and Z values are 
+/initialized to 4 and Y value is initialized to 2 since it does 
+/not specify in the homework problem. Initially, the X value 
+/compares to Y value, if the X is greater than Y then it jumps 
+/to the else-if statement or else when the Y value is greater 
+/then it will increment by 1. The else-if statement compares X 
+/value to Z value, if they are equal to each other then the Z 
+/value will increment by 1 or else if they are not equal then 
+/the Y value will decrement by 1. The value in AC after the 
+/program terminates should be decimal 5/Hex 0005 since the X 
+/value is greater than Y and equal to Z.
+
+	ORG 100
+If,	Load X		/Load X to compare to Y
+	Subt Y		/Subtract the value of Y and store the result in AC
+	SkipCond 000	/Skip the next instruction if the X value is less than the Y vlaue
+	Jump Elseif	/Go to Else-if statement of the Y value is greater than  X value
+ThenA,	Load Y		/Load the Y to increment by 1
+	Add One		/Add the constant value 1 to Y
+	Store Y		/Save the result of Y+1 to Y
+	Jump End	/Go to End to terminate the program
+Elseif,	Load X		/Reload X to compare to Z
+	Subt Z		/Subtract the value of Z and store the result in AC
+	SkipCond 400	/Skip the next instruction if the X value is equal to Z vlaue
+	Jump ThenB	/Go to ThenB if the X value is not equal to Z value
+	Load Z		/Load Z to inncrement by 1
+	Add One		/Add the constant value 1 to Z
+	Store Z		/Save the result of Z+1 to Y
+	Jump End	/Go to End to terminate the program
+ThenB,	Load Y		/Load Y to decrement by 1
+	Subt One	/Subtract the constant value one from Y
+	Store Y		/Save the result of Y-1 to Y
+End,	Halt		/The program will terminate if the conditions has been satisfied
+One,	Hex 0001	/Use a constant number to increment or decrement value
+X,	Hex 0004	/Initialize to 4, the homework does not specify the initial value
+Y,	Hex 0002	/Initialize to 2, the homework does not specify the initial value
+Z,	Hex 0004	/Initialize to 4, the homework does not specify the initial value

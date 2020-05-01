@@ -1,0 +1,25 @@
+Wed Feb 19 13:54:02 2020, 75.00 U.S. Dollars, British Pounds, 57.75
+Wed Feb 19 14:18:36 2020, 50.00 U.S. Dollars, Euros, 46.00
+Wed Feb 19 14:23:02 2020, 50.00 U.S. Dollars, Euros, 46.00
+Wed Feb 19 14:23:30 2020, 1.00 U.S. Dollars, Mexican Pesos, 18.67
+Wed Feb 19 14:25:12 2020, 50.00 U.S. Dollars, British Pounds, 38.50
+Wed Feb 19 14:25:19 2020, 100.00 U.S. Dollars, Mexican Pesos, 1867.00
+Wed Feb 19 14:25:27 2020, 75.00 U.S. Dollars, Euros, 69.00
+Wed Feb 19 14:25:33 2020, 25.00 U.S. Dollars, Canadian dollars, 33.25
+Wed Feb 19 16:20:45 2020, 100.00 U.S. Dollars, Euros, 92.00
+Wed Feb 19 17:15:57 2020, 887766.00 U.S. Dollars, British Pounds, 683579.82
+Wed Feb 19 17:16:01 2020, 887766.00 U.S. Dollars, Euros, 816744.72
+Wed Feb 19 17:16:04 2020, 887766.00 U.S. Dollars, Mexican Pesos, 16574591.22
+Wed Feb 19 17:16:08 2020, 887766.00 U.S. Dollars, Canadian dollars, 1180728.78
+Wed Feb 19 17:20:54 2020, 50.00 U.S. Dollars, Mexican Pesos, 933.50
+Wed Feb 19 17:21:44 2020, 1.00 U.S. Dollars, Mexican Pesos, 18.67
+Wed Feb 19 18:42:29 2020, 100.00 U.S. Dollars, British Pounds, 77.00
+Wed Feb 19 18:44:15 2020, 100.00 U.S. Dollars, Euros, 92.00
+Wed Feb 19 18:44:34 2020, 100.00 U.S. Dollars, Canadian dollars, 133.00
+Wed Feb 19 18:44:42 2020, 100.00 U.S. Dollars, Euros, 92.00
+Wed Feb 19 18:59:01 2020, 100.00 U.S. Dollars, British Pounds, 77.00
+Wed Feb 19 19:13:03 2020, 100.00 U.S. Dollars, British Pounds, 77.00
+Wed Feb 19 19:35:34 2020, 100.00 U.S. Dollars, Euros, 92.00
+Thu Feb 20 01:56:14 2020, 100.00 U.S. Dollars, Mexican Pesos, 1867.00
+Fri Feb 21 00:30:34 2020, 25.00 U.S. Dollars, Euros, 23.00
+Fri Feb 21 03:51:25 2020, 25.00 U.S. Dollars, Mexican Pesos, 466.75

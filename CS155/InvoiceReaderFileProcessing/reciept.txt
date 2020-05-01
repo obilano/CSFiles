@@ -1,0 +1,40 @@
+Invoice # 13628
+Product # 477
+Quantity: 3
+Unit Cost $14.99
+Subtotal: $44.97
+Tax: $3.82
+Total: $48.79
+==============================
+Invoice # 13629
+Product # 500
+Quantity: 1
+Unit Cost $25.00
+Subtotal: $25.00
+Tax: $2.12
+Total: $27.12
+==============================
+Invoice # 13640
+Product # 118
+Quantity: 15
+Unit Cost $0.79
+Subtotal: $11.85
+Tax: $1.01
+Total: $12.86
+==============================
+Invoice # 13655
+Product # 222
+Quantity: 4
+Unit Cost $2.55
+Subtotal: $10.20
+Tax: $0.87
+Total: $11.07
+==============================
+Invoice # 13657
+Product # 477
+Quantity: 2
+Unit Cost $14.99
+Subtotal: $29.98
+Tax: $2.55
+Total: $32.53
+==============================

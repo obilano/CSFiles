@@ -1,0 +1,28 @@
+/Name: Oberon Ilano		
+/Assignment: Program #4, Marie 4, #35 from page 294
+/Due Date: April 4 2019	
+/Purpose: The purpose of this program is to solve the homework
+/problem number 35. This creates a loop that multiplies two
+/positive numbers by using repeated addition. In this program, 
+/the two positive numbers are 5 and 7. The value of Multiby is 
+/added to the Sum 7 times to create the result of 35. The While's 
+/value is compared to the value of X, when they become equal 
+/to each other then the program will end. 
+	
+	ORG 100
+Loop,	Load Sum	/Load Sum to add Multby value
+	Add Multby	/Add the value of Multby which is 5 to Sum
+	Store Sum	/Save the result of Sum + Multby to Sum
+	Load X		/Load X to increment by 1
+	Add One		/Add the constant One to X
+	Store X		/Save the result of X + 1 to X
+	Subt While	/Subtract While and compare the value to X
+	Skipcond 400	/If While value is equal to X value then the program ends 
+	Jump Loop	/Go to the loop until the X value is equal to the While value
+	Halt
+Sum, 	Hex 0000	/Sum value is initialized to 0
+Multby,	Hex 0005	/Multby is initialized to 5
+X,	Hex 0000	/X is initialized to 0
+One,	Hex 0001	/Use a constant number to increment the X value
+While,	Hex 0007	/Use constant number to compare to X, the loop will
+			/go through 7 times before the program terminates

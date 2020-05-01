@@ -1,0 +1,7 @@
+Thu Feb 20 12:56:54 2020: Rectangle with length 3.0 and width 3.0 has area of 9.0
+Thu Feb 20 12:57:02 2020: Rectangle with length 3.0 and width 5.0 has perimeter of 16.0
+Thu Feb 20 13:01:23 2020: Rectangle with length 3.0 and width 3.0 has area of 9.0
+Thu Feb 20 13:01:32 2020: Rectangle with length 3.0 and width 5.0 has perimeter of 16.0
+Thu Feb 20 13:05:52 2020: Rectangle with length 3.0 and width 1.0 has area of 3.0
+Thu Feb 20 13:06:00 2020: Rectangle with length 4.0 and width 3.0 has perimeter of 14.0
+Fri Feb 21 00:30:48 2020: Rectangle with length 3.0 and width 5.0 has area of 15.0

@@ -1,0 +1,100 @@
+Write a program that will keep track of the car inventory at some regional auto stores.
+
+Your program should begin by reading the inventory from a data file named "inventory.txt". 
+The first line of the file  will  contain  the  number  of  stores.  
+You  may  assume  that  there  will  not  be  more  than  100  stores.  
+The remaining  lines  will  have  the  number  of  cars  at  store  #1,  store  #2,  etc.  
+A  data  file  might  look  something  like this:5223314947After reading the file, 
+your program should provide a menu-based system in which the user will have 4 options:
+1 – Display the inventory of all stores
+2 – Add some cars to a store
+3 – Remove some cars from a store
+4 – Quit the program
+
+If the user chooses something besides 1 through 4, an "Invalid choice" message should be displayed.
+When the user chooses options #2 or #3, the program should first ask for the store number (with data validation) and then ask for the quantity. 
+The removal of cars should validate data.
+If you run your program, the sample interaction might look something like that shown below (continuing on to the reverse side of this sheet). 
+Feel free to modify the look and feel, as well as the wording, to make your program user-friendly.
+Car inventory program
+
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 1
+Store  Count    
+1        22    
+2        33    
+3        14    
+4         9    
+5        47
+
+Car inventory program
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 2
+Store number: 9
+Store number: 2
+Cars to add: 100
+
+Car inventory program
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 1
+Store  Count    
+1        22    
+2       133    
+3        14    
+4         9    
+5        47
+
+Car inventory program
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 3
+Store number: 4
+Cars to remove 20
+Cars to remove 7
+
+Car inventory program
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 1
+Store  Count    
+1        22    
+2       133    
+3        14    
+4         2    
+5        47
+
+Car inventory program
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 9
+Invalid choice
+
+Car inventory program
+1. Display Inventory
+2. Add some cars
+3. Remove some cars
+4. Quit the program
+
+Choice: 4
+Quit Program

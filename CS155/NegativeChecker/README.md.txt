@@ -1,0 +1,1 @@
+Check to see if any of the exam scores are negative. If so, print out an "Invalid data" message and end the program.

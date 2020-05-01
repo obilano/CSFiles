@@ -1,0 +1,1 @@
+Using the class attached, template the classes.  You may combine the class headers, implementations, and driver into one cpp file for templating and submission.
